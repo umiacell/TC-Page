@@ -1,0 +1,75 @@
+.botonCoordenadas {
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.marginTop10 {
+    margin-top: 20px;
+}
+
+.presult {
+    color: rgb(164, 243, 227);
+    text-shadow: 1px 1px 20px #00000084, -1px -1px 20px #0000007b;
+    background-color: rgba(240, 255, 255, 0.345);
+    padding: 2px 0;
+    border-radius: 50px;
+    
+}
+
+.presulta{
+    color: rgb(255, 251, 0);
+    text-shadow: 1px 1px 20px #00000084, -1px -1px 20px #0000007b;
+    background-color: rgba(0, 0, 0, 0.345);
+    padding: 2px 0;
+    border-radius: 50px;
+}
+
+.fade-out {
+    position: absolute;
+    bottom: -33px;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1.5s;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: .7rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 6px #000000, -4px -4px 6px #000000;
+    z-index: 999;
+  }
+  
+  .fade-out.hidden {
+    opacity: 0;
+    z-index: -999;
+  }
+
+  .fade-out2 {
+    position: absolute;
+    bottom: -33px;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1.5s;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 6px #000000, -4px -4px 6px #000000;
+    z-index: 999;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 90px;
+  }
+  
+  .fade-out2.hidden {
+    opacity: 0;
+    z-index: -999;
+  }
+
+  @media (max-width: 490px) {
+    .fade-out2 {
+      position: absolute;
+      margin-bottom: -220px;
+      background-color: #000000ab;
+    }
+  }
