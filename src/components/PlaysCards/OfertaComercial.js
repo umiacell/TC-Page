@@ -236,14 +236,14 @@ const OfertaComercial = () => {
       selectedOption === "regular" ? newRegularPrices : newNetflixPrices;
 
     return (
-      <table className="striped">
+      <table className="tableOC">
         <thead>
           <tr>
-            <th>Paquete</th>
-            <th>Velocidad</th>
-            <th>Precio Promo</th>
-            <th>Precio Normal</th>
-            <th>Descuento</th>
+            <th className="thOC">Paquete</th>
+            <th className="thOC">Velocidad</th>
+            <th className="thOC">Precio Promo</th>
+            <th className="thOC">Precio Normal</th>
+            <th className="thOC">Descuento</th>
           </tr>
         </thead>
         <tbody style={{color: "black"}}>
@@ -251,11 +251,11 @@ const OfertaComercial = () => {
             Object.entries(packageData).map(([speed, speedData]) => (
               <tr key={`${packages}-${speed}`}>
 
-                <td>{packages}</td>
-                <td style={{fontWeight:"bold"}}>{`${speed}MB (${speed*2}MBx 6m)`}</td>
-                <td style={{fontWeight:"bold", color:"rebeccapurple"}}>{speedData.PrecioPromo < 100 ? `S/ ${speedData.PrecioPromo}.00`: `S/${speedData.PrecioPromo}.00` }</td>
-                <td>{speedData.PrecioNormal < 100 ? `S/ ${speedData.PrecioNormal}.00`: `S/${speedData.PrecioNormal}.00`}</td>
-                <td>{`${speedData.TiempoPromo !== 0 ? `${speedData.TiempoPromo} meses` : "-"}`}</td>
+                <td className="tdOC">{packages}</td>
+                <td className="tdOC" style={{fontWeight:"bold"}}>{`${speed}MB (${speed*2}MBx 6m)`}</td>
+                <td className="tdOC" style={{fontWeight:"bold", color:"rebeccapurple"}}>{speedData.PrecioPromo < 100 ? `S/ ${speedData.PrecioPromo}.00`: `S/${speedData.PrecioPromo}.00` }</td>
+                <td className="tdOC">{speedData.PrecioNormal < 100 ? `S/ ${speedData.PrecioNormal}.00`: `S/${speedData.PrecioNormal}.00`}</td>
+                <td className="tdOC">{`${speedData.TiempoPromo !== 0 ? `${speedData.TiempoPromo} meses` : "-"}`}</td>
               </tr>
             ))
           )}

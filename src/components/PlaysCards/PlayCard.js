@@ -3,7 +3,6 @@ import "./PlayCard.css";
 import OfertaComercial from "./OfertaComercial";
 import CoorUbi from "./CoorUbi";
 
-
 const PlayCard = () => {
   const [coberturaElegida, setCoberturaElegida] = useState("ELTAMBO");
   const coberturas = [
@@ -117,19 +116,18 @@ const PlayCard = () => {
     </div>
   );
 
-
-
   return (
     <>
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <div className="imgPlays-container" style={{ marginBottom: "50px" }}>
-        <OfertaComercial/>
-        </div>
         <div className="imgPlays-container" style={{ marginBottom: "50px" }}>
           <CoorUbi />
         </div>
 
         {coberturaZonasJunin}
+        
+        <div className="imgPlays-container" style={{ marginBottom: "50px" }}>
+          <OfertaComercial />
+        </div>
       </div>
     </>
   );
