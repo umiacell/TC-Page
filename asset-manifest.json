@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TC-Page/static/css/main.58e76fc6.css",
-    "main.js": "/TC-Page/static/js/main.5fab7c08.js",
+    "main.css": "/TC-Page/static/css/main.421c46d4.css",
+    "main.js": "/TC-Page/static/js/main.ddb87e26.js",
     "static/media/loading.gif": "/TC-Page/static/media/loading.91ce0601db2490106ce1.gif",
     "static/media/promo.png": "/TC-Page/static/media/promo.f79497a1ce035e078197.png",
     "static/media/google-logo.svg": "/TC-Page/static/media/google-logo.dcbc94051c15aba5972efc068e2cec23.svg",
@@ -22,11 +22,11 @@
     "static/media/file-plus.svg": "/TC-Page/static/media/file-plus.d69f74b5fc67a0579ef0474558e02ac2.svg",
     "static/media/bateria.svg": "/TC-Page/static/media/bateria.257841ddd532689e5cdd935895c8e85b.svg",
     "static/media/peso.svg": "/TC-Page/static/media/peso.dfbe9e0f72f7f2c0e0e470696e831107.svg",
-    "main.58e76fc6.css.map": "/TC-Page/static/css/main.58e76fc6.css.map",
-    "main.5fab7c08.js.map": "/TC-Page/static/js/main.5fab7c08.js.map"
+    "main.421c46d4.css.map": "/TC-Page/static/css/main.421c46d4.css.map",
+    "main.ddb87e26.js.map": "/TC-Page/static/js/main.ddb87e26.js.map"
   },
   "entrypoints": [
-    "static/css/main.58e76fc6.css",
-    "static/js/main.5fab7c08.js"
+    "static/css/main.421c46d4.css",
+    "static/js/main.ddb87e26.js"
   ]
 }
