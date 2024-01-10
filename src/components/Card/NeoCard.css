@@ -182,9 +182,9 @@ button:active {
   font-size: 15px;
   background: linear-gradient(
     90deg,
-    rgba(0, 32, 191) 10%,
-    rgb(0, 184, 242) 80%,
-    rgb(49, 161, 139) 100%
+    rgb(252, 0, 42) 10%,
+    rgb(250, 118, 158) 80%,
+    rgb(245, 147, 188) 100%
   );
   margin-top: 15px;
   width: 175px;
@@ -194,9 +194,9 @@ button:active {
   font-size: 15px;
   background: linear-gradient(
     90deg,
-    rgb(107, 0, 131) 10%,
-    rgb(187, 0, 205) 50%,
-    rgb(255, 102, 0) 100%
+    rgba(238, 160, 17, 0.822) 10%,
+    rgb(218, 204, 10) 50%,
+    rgb(13, 236, 24) 100%
   );
   border-bottom-left-radius: 15px;
   width: 175px;
@@ -207,9 +207,9 @@ button:active {
   font-size: 15px;
   background: linear-gradient(
     90deg,
-    rgb(0, 157, 31) 10%,
-    rgb(0, 249, 119) 80%,
-    rgb(89, 236, 4) 100%
+    rgb(213, 103, 235) 0%,
+    rgb(184, 7, 184) 80%,
+    rgb(75, 3, 69) 100%
   );
   border-top-right-radius: 15px;
   margin-top: 15px;
@@ -220,9 +220,9 @@ button:active {
   font-size: 15px;
   background: linear-gradient(
     90deg,
-    rgb(244, 119, 0) 10%,
-    rgb(255, 213, 0) 50%,
-    rgb(236, 89, 4) 100%
+    rgb(6, 243, 105) 0%,
+    rgb(31, 161, 236) 50%,
+    rgb(255, 1, 179) 100%
   );
   border-bottom-right-radius: 15px;
   width: 175px;
@@ -258,7 +258,7 @@ h2 {
 .triangle1 {
   width: 250px;
   height: 250px;
-  background: linear-gradient(to left, #0ea1e6, #1e67c7);
+  background: linear-gradient(to left, #c97800, #df075a);
   right: 100px;
   top: 100px;
   animation: t1 20s ease infinite;
@@ -267,7 +267,7 @@ h2 {
 .triangle2 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(to left, #ee8105, #c7371e);
+  background: linear-gradient(to left, #ff48a3, rgb(255, 34, 34));
   top: 350px;
   animation: t2 30s ease infinite;
 }
@@ -275,7 +275,7 @@ h2 {
 .triangle3 {
   width: 300px;
   height: 300px;
-  background: linear-gradient(to left, #1b8fc5, #df0f8f);
+  background: linear-gradient(to left, #43018f, #ff0000);
   left: 200px;
   animation: t3 40s ease infinite;
 }
